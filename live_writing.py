@@ -143,8 +143,8 @@ while True:
         predicted_digit = predict_digit(canvas)
         print("Predicted Digit:", predicted_digit)
 
-# ======================
+
 # CLEANUP
-# ======================
+
 cap.release()
 cv2.destroyAllWindows()
