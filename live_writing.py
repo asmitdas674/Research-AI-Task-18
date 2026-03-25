@@ -106,7 +106,7 @@ while True:
         if x1 == 0 and y1 == 0:
             x1, y1 = x2, y2
         else:
-            # 🔥 WHITE DRAWING (IMPORTANT)
+            # WHITE DRAWING
             cv2.line(canvas, (x1, y1), (x2, y2), (255, 255, 255), 8)
 
         x1, y1 = x2, y2
