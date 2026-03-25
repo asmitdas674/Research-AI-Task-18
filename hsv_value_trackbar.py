@@ -26,6 +26,17 @@ while True:
     # FIXED
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
+    
+    # l_h → Lower Hue
+    # l_s → Lower Saturation
+    # l_v → Lower Value
+
+    # u_h → Upper Hue
+    # u_s → Upper Saturation
+    # u_v → Upper Value
+
+    # HSV: Hue (0-179), Saturation (0-255), Value (0-255)
+
     l_h = cv2.getTrackbarPos("L - H", "Trackbars")
     l_s = cv2.getTrackbarPos("L - S", "Trackbars")
     l_v = cv2.getTrackbarPos("L - V", "Trackbars")
